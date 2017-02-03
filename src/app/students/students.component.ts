@@ -13,6 +13,7 @@ import { StudentsDBService } from '../students-db.service';
 export class StudentsComponent implements OnInit {
 
   datas: Object[];
+  id: string;
 
   constructor(private studentsDB: StudentsDBService) {
 

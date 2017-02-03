@@ -9,6 +9,4 @@ export class AppComponent {
   title = 'Welcome to MUM ';
 
   constructor() { }
-
-
 }

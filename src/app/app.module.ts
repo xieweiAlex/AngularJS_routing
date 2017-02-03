@@ -13,19 +13,20 @@ import { StudentsDBService } from "./students-db.service"
 
 import { HomepageComponent } from './homepage/homepage.component';
 import { StudentsComponent } from './students/students.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    StudentsComponent
+    StudentsComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     myRoutes
-
   ],
   providers: [StudentsDBService],
   bootstrap: [AppComponent]

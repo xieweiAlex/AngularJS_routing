@@ -5,7 +5,6 @@ export class StudentsDBService {
 
   constructor() { }
 
-
   getData() {
     return [
       {id: "1", name: "Asaad1", email: "Asaad1@mum.edu"},

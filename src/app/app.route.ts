@@ -6,12 +6,13 @@ import { RouterModule, Routes } from "@angular/router";
 
 import { HomepageComponent } from "./homepage/homepage.component";
 import { StudentsComponent } from "./students/students.component";
-import { AppComponent } from "./app.component";
+import { ProfileComponent } from "./profile/profile.component"
 
 
 const MY_ROUTES: Routes = [
   { path: 'homepage', component: HomepageComponent },
   { path: 'students', component: StudentsComponent },
+  { path: 'profile/:id', component: ProfileComponent },
   { path: '**', redirectTo: '/' }
 ];
 
