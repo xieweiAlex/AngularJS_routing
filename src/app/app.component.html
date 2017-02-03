@@ -1,3 +1,13 @@
 <h1>
   {{title}}
 </h1>
+<body>
+  <div>
+    <a [routerLink]="['homepage']">Homepage </a> |
+    <a [routerLink]="['students']">Students</a>
+
+    <router-outlet></router-outlet>
+  </div>
+
+</body>
+
