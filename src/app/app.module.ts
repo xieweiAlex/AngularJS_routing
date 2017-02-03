@@ -24,7 +24,7 @@ import { StudentsComponent } from './students/students.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    myRoutes // add it to imports
+    myRoutes
 
   ],
   providers: [StudentsDBService],
