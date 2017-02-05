@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { myRoutes } from "./app.route";
 
 // servers
-import { StudentsDBService } from "./students-db.service"
+import { StudentsDBService } from "./students-db.service";
 
 import { HomepageComponent } from './homepage/homepage.component';
 import { StudentsComponent } from './students/students.component';
@@ -32,3 +32,6 @@ import { ProfileComponent } from './profile/profile.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+

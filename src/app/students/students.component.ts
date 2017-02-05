@@ -5,11 +5,17 @@ import { StudentsDBService } from '../students-db.service';
   selector: 'app-students',
   template: `
     <ul>
-        <li *ngFor="let obj of datas"><a href="/profile/{{obj.id}}"> {{ obj.name }}</a> </li>
+        <li *ngFor="let stu of datas">
+            <a [routerLink]= "['profile', stu.id]" > {{ stu.name }}</a>
+        </li>
+        
+
+        
     </ul>
 `,
   styleUrls: ['./students.component.css']
 })
+
 export class StudentsComponent implements OnInit {
 
   datas: Object[];
@@ -25,3 +31,7 @@ export class StudentsComponent implements OnInit {
   }
 
 }
+
+
+
+

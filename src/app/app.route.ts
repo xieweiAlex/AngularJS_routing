@@ -12,8 +12,9 @@ import { ProfileComponent } from "./profile/profile.component"
 const MY_ROUTES: Routes = [
   { path: 'homepage', component: HomepageComponent },
   { path: 'students', component: StudentsComponent },
-  { path: 'profile/:id', component: ProfileComponent },
+  { path: 'students/profile/:id', component: ProfileComponent },
   { path: '**', redirectTo: '/' }
+
 ];
 
 export const myRoutes = RouterModule.forRoot(MY_ROUTES);
